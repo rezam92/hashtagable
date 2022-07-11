@@ -20,6 +20,10 @@ const _germanLetters = 'ÄäÖöÜüẞß';
 
 const _turkishLetters = 'IıÖöŞşÇçÜüĞğ';
 
+const _persianLetters = '\u067E\u0686\u0698\u06AF\u06CC\u0640';
+
+const _persianNumber = '\u06F0-\u06F9';
+
 const hashTagContentLetters = _symbols +
     _numbers +
     _englishLetters +
@@ -29,6 +33,8 @@ const hashTagContentLetters = _symbols +
     _arabicLetters +
     _thaiLetters +
     _norwegianLetters +
+    _persianLetters +
+    _persianNumber +
     _turkishLetters +
     _germanLetters;
 
